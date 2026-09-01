@@ -1,5 +1,45 @@
 """Transport-free OpenHDO device and controller models."""
 
-from .model import Capability, CommandRequest, DeviceDescriptor
+from .model import (
+    BrightnessCommand,
+    Capability,
+    CommandIdentity,
+    CommandRequest,
+    CONTROLLER_ROLE,
+    DeviceDescriptor,
+    DISPLAY_ROLE,
+    Envelope,
+    LIGHT_V1,
+    LightCommandMessage,
+    LightState,
+    LightStateChangedMessage,
+    LightStateChangedPayload,
+    LightStateReportedMessage,
+    PHYSICAL_DEVICE_ROLE,
+    PowerCommand,
+    RgbColor,
+    RgbColorCommand,
+    WALL_PANEL_ROLE,
+)
 
-__all__ = ["Capability", "CommandRequest", "DeviceDescriptor"]
+__all__ = [
+    "BrightnessCommand",
+    "Capability",
+    "CommandIdentity",
+    "CommandRequest",
+    "CONTROLLER_ROLE",
+    "DeviceDescriptor",
+    "DISPLAY_ROLE",
+    "Envelope",
+    "LIGHT_V1",
+    "LightCommandMessage",
+    "LightState",
+    "LightStateChangedMessage",
+    "LightStateChangedPayload",
+    "LightStateReportedMessage",
+    "PHYSICAL_DEVICE_ROLE",
+    "PowerCommand",
+    "RgbColor",
+    "RgbColorCommand",
+    "WALL_PANEL_ROLE",
+]
